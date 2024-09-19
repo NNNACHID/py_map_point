@@ -12,7 +12,7 @@ __/\\\\\\\\\\\\\_______/\\\\\\\________/\\\\\\\_________________________________
 
 # py_map_point
 
-Py_map_point est une API qui sert à récupérer et inserer des points d'intérêts (restaurants, arret de bus, cameras...etc) sur un carte
+Py_map_point est une API qui sert à récupérer et inserer des points d'intérêts (restaurants, arret de bus, cameras...etc) sur une carte
 
 ## Prérequis
 
