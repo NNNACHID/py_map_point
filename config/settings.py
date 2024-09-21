@@ -86,10 +86,10 @@ DATABASES = {
     "default": {
         "ENGINE": os.environ.get("DB_DRIVER", "django.contrib.gis.db.backends.postgis"),
         "NAME": os.environ.get("PG_DB", "geodb"),
-        "USER": "postgres",
-        "PASSWORD": "postgres",
-        "HOST": "db",
-        "PORT": "5432",
+        "USER": os.environ.get("PG_USER", "geodb"),
+        "PASSWORD": os.environ.get("PG_PASSWORD", "geodb"),
+        "HOST": os.environ.get("PG_HOST", "localhost"),
+        "PORT": os.environ.get("PG_PORT", "5432"),
     }
 }
 
